@@ -4,14 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bced91c0-0c4d-4f6e-a7f5-ecea2eda94ae" name="Changes" comment="First commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="bced91c0-0c4d-4f6e-a7f5-ecea2eda94ae" name="Changes" comment="Pre-bootcamp final state">
+      <change afterPath="$PROJECT_DIR$/src/main/java/bootcamp/SlimStoreRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bootcamp/StorePesristenceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bootcamp/StoreRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bootcamp/dao/H2Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bootcamp/dao/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bootcamp/dao/JSONRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bootcamp/dao/SqLiteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bootcamp/entity/StoreItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bootcamp/exceptions/ItemNotAvailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bootcamp/StoreRegisterSystemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,19 +56,28 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ambruspal/IdeaProjects/Store-register",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bootcamp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ambruspal\IdeaProjects\Store-register\src\test\java\bootcamp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StoreRegisterSystemTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bootcamp.Main" />
       <module name="Store-register" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bootcamp.*" />
+          <option name="PATTERN" value="bootcamp.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,8 +85,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StoreRegisterSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Store-register" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootcamp.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootcamp" />
+      <option name="MAIN_CLASS_NAME" value="bootcamp.StoreRegisterSystemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StoreRegisterSystemTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -101,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Pre-bootcamp final state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pre-bootcamp final state" />
   </component>
 </project>
